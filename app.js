@@ -4,7 +4,9 @@ const app = new Koa()
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 const json = require('koa-json')
-
+// cors 跨域
+const cors = require("koa-cors");
+app.use(cors());
 
 const home = require('./routes/home')
 // const users = require('./routes/users')

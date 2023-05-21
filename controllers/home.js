@@ -6,13 +6,17 @@ module.exports = {
         let result = await model.checkUser();
         ctx.response.body = [
             {
-                articleName: "111",
-                time: "11111",
+                id:"001",
+                title: "111",
+                publishTime: "11111",
+                summary:"文章简介文章简介文章简介文章简介文章简介文章简介文章简介文章简介文章简介文章简介文章简介",
                 pic:"https://xiaoyou66.com/medias/featureimages/img98.jpg"
             },
             {
-                articleName: "222",
-                time: "22222",
+                id:"002",
+                title: "222",
+                publishTime: "22222",
+                summary:"文章简介2文章简介2文章简介2文章简介2文章简介2文章简介2文章简介2文章简介2文章简介2文章简介2",
                 pic:"https://xiaoyou66.com/medias/featureimages/img72.jpg"
             }
         ]
